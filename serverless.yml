@@ -1,0 +1,15 @@
+service: test-notes-app-api
+
+package:
+  individually: true
+
+plugins:
+  - serverless-bundle
+  - serverless-offline
+  - servless-dotenv-plugin
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+  stage: prod
+  region: us-east-1
