@@ -1,5 +1,5 @@
 Resources:
-  Gateway:ResponseDefault4XX:
+  GatewayResponseDefault4XX:
     Type: 'AWS::ApiGateway::GatewayResponse'
     Properties:
       ResponseParameters:
